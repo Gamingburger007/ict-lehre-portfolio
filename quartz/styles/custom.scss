@@ -40,3 +40,7 @@ article img {
 
 h1, h2 { letter-spacing: -0.01em; }
 article table { border-radius: 10px; overflow: hidden; }
+
+// Graph: groesser und luftiger
+.graph > .graph-outer { height: 280px; border-radius: 14px; }
+.graph > .global-graph-outer > .global-graph-container { height: 88vh; width: 90vw; }

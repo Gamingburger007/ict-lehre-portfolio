@@ -22,11 +22,6 @@ Für jede Kompetenz gibt es Beschreibungen auf Beginner/Intermediate/Advanced-Ni
 
 ## Inhalte in diesem Portfolio
 
-- [[W01 – WH-Fragen & Problemanalyse]]
-- [[W02 – Suchoperatoren & Tools]]
-- [[W03 – Prompting mit RTCF]]
-- [[W04 – Dokumente lesen & Quellen bewerten]]
-- [[W06 – Big-6-Modell & Research-Plan]]
-- [[KI Grundlagen]]
+Alle Wochen-Notizen (W01 bis W06) und KI Grundlagen stehen in [[Information Research (Modul 334)]], zum Beispiel [[W01 – WH-Fragen & Problemanalyse]].
 
 Siehe auch [[Semesterplan Modul 334]] für die Wochenübersicht.
