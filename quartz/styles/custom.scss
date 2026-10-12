@@ -76,10 +76,3 @@ img.portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 50
   .center { padding-left: 0; padding-right: 0; box-sizing: border-box; }
   h1.article-title { font-size: 1.8rem; word-break: break-word; }
 }
-
-/* Firmenlogos in den Bereichs-Karten */
-.card .card-logo { display: flex; align-items: center; height: 38px; margin-bottom: 0.6rem; }
-.card .card-logo img { height: 100%; width: auto; max-width: 70%; object-fit: contain; object-position: left center; margin: 0; border-radius: 0; box-shadow: none; }
-.card .card-logo .logo-dark { display: none; }
-:root[saved-theme="dark"] .card .card-logo .logo-light { display: none; }
-:root[saved-theme="dark"] .card .card-logo .logo-dark { display: block; }

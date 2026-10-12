@@ -16,12 +16,12 @@ Willkommen in meinem Lernportfolio. Hier dokumentiere ich, was ich in meiner Leh
 
 <div class="cards">
 <a class="card noser" href="Noser-Young-AG/Überblick-Noser-Young-AG">
-<span class="card-logo"><img src="assets/logo-noseryoung.png" alt="Noser Young" /></span>
+<span class="card-logo" style="display:flex;align-items:center;height:40px;margin-bottom:0.7rem;"><img src="assets/logo-noseryoung.png" alt="Noser Young" style="height:40px;width:auto;max-width:75%;margin:0;border-radius:0;box-shadow:none;object-fit:contain;" /></span>
 <strong>Noser Young AG</strong>
 <span>Lehrbetrieb: Webentwicklung, HTML, CSS und wie das Web funktioniert.</span>
 </a>
 <a class="card tbz" href="TBZ/Überblick-TBZ">
-<span class="card-logo"><img class="logo-light" src="assets/logo-tbz.svg" alt="TBZ" /><img class="logo-dark" src="assets/logo-tbz-dark.svg" alt="TBZ" /></span>
+<span class="card-logo" style="display:flex;align-items:center;height:40px;margin-bottom:0.7rem;"><img src="assets/logo-tbz.svg" alt="TBZ" style="height:40px;width:auto;max-width:75%;margin:0;border-radius:0;box-shadow:none;object-fit:contain;" /></span>
 <strong>TBZ</strong>
 <span>Berufsschule: Netzwerk, Betriebssysteme, Information Research und Softskills.</span>
 </a>
