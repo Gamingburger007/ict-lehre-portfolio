@@ -1,3 +1,42 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Hero-Bild und Bilder allgemein
+article img {
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.12);
+  margin: 0.8rem 0;
+}
+
+// Karten auf der Startseite
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1.1rem 1.2rem;
+    border-radius: 16px;
+    border: 1px solid var(--lightgray);
+    background: var(--light);
+    color: var(--darkgray);
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.16);
+    }
+    strong { font-size: 1.2rem; color: var(--dark); }
+    .card-icon { font-size: 1.8rem; }
+    &.noser { border-top: 5px solid #2563eb; }
+    &.tbz { border-top: 5px solid #0d9488; }
+  }
+}
+
+h1, h2 { letter-spacing: -0.01em; }
+article table { border-radius: 10px; overflow: hidden; }

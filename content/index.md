@@ -1,31 +1,44 @@
 ---
-title: ICT-Lehre Lernportfolio
+title: Lernportfolio
 ---
 
-# ICT-Lehre Vault – Tim Bürgin
+![[hero.svg]]
 
-Willkommen in deinem Obsidian-Vault! Alles ist klar in zwei Bereiche getrennt: **Noser Young AG** (Lehrbetrieb) und **TBZ** (Berufsschule).
+Willkommen in meinem Lernportfolio. Hier dokumentiere ich, was ich in meiner Lehre als **ICT-Fachmann EFZ** lerne: im Lehrbetrieb bei der **Noser Young AG** und in der Berufsschule an der **TBZ**. Die Notizen sind laufend ergänzt und verlinken sich gegenseitig, damit man Zusammenhänge schnell findet.
 
-## 📁 Noser Young AG
-- **00 Administratives** – Organisation & Administration
-- **01 Webentwicklung** – HTML/CSS-Grundlagen, wie das Web funktioniert
+> [!info] Stand
+> Basislehrjahr, Herbst 2026. Das Portfolio wächst mit jedem neuen Thema.
 
-## 📁 TBZ
-- **00 Administratives** – Semesterplan Modul 334, Modul-334-Überblick
-- **01 Netzwerk (Modul 117)** – Netzwerk-Grundlagen, IP-Adressierung, Topologien, OSI-Modell
-- **02 Betriebssysteme (Modul 187)** – OS-Grundlagen, BIOS/UEFI, Lizenzierung, Virtualisierung
-- **03 Modul 334 – Information Research** – Recherche-Methoden, Prompting, Quellenbewertung, Big-6-Modell
-- **05 Sonstiges** – ABU, Diverses
+## Bereiche
 
-## Tipps für die Nutzung
-- Nutze `[[Doppelte eckige Klammern]]`, um zwischen verwandten Notizen zu springen (z. B. von OSI-Modell zu Netzwerktopologien) – funktioniert ordnerübergreifend.
-- Tags oben in jeder Notiz (`#netzwerk`, `#betriebssysteme` etc.) helfen dir, über die Suche oder den Tag-Browser schnell alles zu einem Thema zu finden.
-- Falls Obsidian nach Änderungen von aussen (z. B. durch mich) nicht sofort aktuell aussieht: Vault einmal neu laden (Strg/Cmd+R oder Vault schliessen & neu öffnen) – dann stimmen Dateiliste und Graph wieder.
-- Blanko-Arbeitsblätter aus deinem M334-Notizbuch (die noch nicht ausgefüllt waren) wurden nicht 1:1 übernommen – nur Inhalte mit echtem Lerninhalt sind drin.
-- Ergänze die Notizen gerne direkt in Obsidian, sobald du Neues im Unterricht lernst – das Vault lebt mit dir mit.
+<div class="cards">
+<a class="card noser" href="Noser-Young-AG/">
+<span class="card-icon">💻</span>
+<strong>Noser Young AG</strong>
+<span>Lehrbetrieb: Webentwicklung, HTML, CSS und wie das Web funktioniert.</span>
+</a>
+<a class="card tbz" href="TBZ/">
+<span class="card-icon">🎓</span>
+<strong>TBZ</strong>
+<span>Berufsschule: Netzwerk, Betriebssysteme, Information Research und Softskills.</span>
+</a>
+</div>
 
-## Quellen
-Alle Inhalte stammen aus deinen drei exportierten OneNote-Notizbüchern (Stand Herbst 2026):
-- Tim – Noser Young AG (Basislehrjahr)
-- TBZ (Modul 117, 187, 214, 334)
-- TBZ-IT_ICT26c_ENG_M334_Notebook (Modul 334, Klassen-Notizbuch)
+## Themen im Überblick
+
+### Noser Young AG
+- [[HTML Grundlagen]] – Aufbau eines Dokuments, Metadaten, Favicon, W3C-Validator
+- [[CSS Grundlagen]] – Gestaltung von Webseiten
+- [[Wie das Web funktioniert]] – Client, DNS, Webserver und der Weg einer Anfrage
+
+### TBZ
+- **Netzwerk (Modul 117):** [[Netzwerk Grundlagen]], [[IP-Adressierung & Subnetting]], [[Netzwerktopologien]], [[OSI-Modell]]
+- **Betriebssysteme (Modul 187):** [[Betriebssysteme Übersicht]], [[BIOS & UEFI]], [[Lizenzierung – OEM, Retail, KMS, MAK]], [[Virtualisierung & VM-Netzwerke]]
+- **Information Research (Modul 334):** [[Modul 334 – Überblick]], [[Semesterplan Modul 334]], [[W01 – WH-Fragen & Problemanalyse]], [[W06 – Big-6-Modell & Research-Plan]]
+- **Softskills (Modul 214):** [[Mein Persönlichkeitsprofil (ENTP-A)]], [[DISG-Profil]], [[Gesamtbericht – Wer ich bin]]
+- **Allgemeinbildung:** [[ABU]]
+
+## So liest man das Portfolio
+- Links in den Notizen führen direkt zu verwandten Themen.
+- Rechts zeigt die **Graphansicht**, wie die Themen zusammenhängen.
+- Die **Suche** (links oben) findet Begriffe in allen Notizen.

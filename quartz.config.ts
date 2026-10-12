@@ -8,23 +8,21 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ICT-Lehre Lernportfolio – Tim Bürgin",
+    pageTitle: "Lernportfolio – Tim Bürgin",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "de-DE",
     baseUrl: "gamingburger007.github.io/ict-lehre-portfolio",
-    ignorePatterns: ["private", "templates", ".obsidian", "Random Notizen", "TBZ/04 Softskills*"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Random Notizen"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Space Grotesk",
+        body: "Inter",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -34,8 +32,8 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          secondary: "#1d4ed8",
+          tertiary: "#0d9488",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
@@ -45,8 +43,8 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          secondary: "#7aa2ff",
+          tertiary: "#0d9488",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },

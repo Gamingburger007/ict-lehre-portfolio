@@ -20,7 +20,7 @@ tags: [m334, übersicht]
 
 Für jede Kompetenz gibt es Beschreibungen auf Beginner/Intermediate/Advanced-Niveau (HZ 1–6), die den praktischen Szenarien (HZ1 "Overloaded Helpdesk", HZ2 "AI Ticketing Optimisation") zugeordnet sind.
 
-## Inhalte in diesem Vault
+## Inhalte in diesem Portfolio
 
 - [[W01 – WH-Fragen & Problemanalyse]]
 - [[W02 – Suchoperatoren & Tools]]
