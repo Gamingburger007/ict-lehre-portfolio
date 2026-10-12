@@ -46,3 +46,5 @@ article table { border-radius: 10px; overflow: hidden; }
 .graph > .global-graph-outer > .global-graph-container { height: 88vh; width: 90vw; }
 
 img.portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
+
+.mermaid svg .node foreignObject *, .mermaid svg .node .label *, .mermaid svg .node text, .mermaid svg .node tspan { fill: #0f172a !important; color: #0f172a !important; }
