@@ -4,10 +4,13 @@ title: Lernportfolio
 
 ![[hero.svg]]
 
+<img class="portrait" src="assets/tim.jpg" alt="Tim Bürgin, Lernender ICT-Fachmann EFZ bei der Noser Young AG" />
+
 Willkommen in meinem Lernportfolio. Hier dokumentiere ich, was ich in meiner Lehre als **ICT-Fachmann EFZ** lerne: im Lehrbetrieb bei der **Noser Young AG** und in der Berufsschule an der **TBZ**. Die Notizen sind laufend ergänzt und verlinken sich gegenseitig, damit man Zusammenhänge schnell findet.
 
 > [!info] Stand
 > Basislehrjahr, Herbst 2026. Das Portfolio wächst mit jedem neuen Thema.
+> Foto: © Noser Young AG (Teamseite noseryoung.ch).
 
 ## Bereiche
 
@@ -26,5 +29,5 @@ Willkommen in meinem Lernportfolio. Hier dokumentiere ich, was ich in meiner Leh
 
 ## So liest man das Portfolio
 - Von den zwei Bereichen geht es in die Module und von dort zu den einzelnen Notizen.
-- Die **Graphansicht** rechts zeigt, wie die Themen zusammenhängen. Mit dem Symbol oben rechts im Kasten wird sie gross.
+- Die **[[Themenkarte]]** zeigt auf einen Blick, wie alles zusammenhängt.
 - Die **Suche** links oben findet Begriffe in allen Notizen.
