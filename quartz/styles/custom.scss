@@ -48,3 +48,13 @@ article table { border-radius: 10px; overflow: hidden; }
 img.portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; float: right; margin: 0 0 1rem 1.5rem; box-shadow: 0 6px 20px rgba(0,0,0,.2); }
 
 .mermaid svg .node foreignObject *, .mermaid svg .node .label *, .mermaid svg .node text, .mermaid svg .node tspan { fill: #0f172a !important; color: #0f172a !important; }
+
+/* Explorer: klare Abstände zwischen den Bereichen und Modulen */
+.explorer .explorer-ul > li { margin: 0.35rem 0; }
+.explorer .explorer-ul > li > .folder-outer,
+.explorer .explorer-ul > li > div:first-child { margin-bottom: 0.2rem; }
+.explorer .folder-container { padding: 0.25rem 0; }
+.explorer .folder-container > div > a, .explorer .folder-container > div > button { font-weight: 600; }
+.explorer .folder-outer > ul > li { margin: 0.3rem 0; }
+.explorer .explorer-ul > li:has(> .folder-container) { margin-top: 0.9rem; padding-top: 0.5rem; border-top: 1px solid var(--lightgray); }
+.explorer .explorer-ul > li:has(> .folder-container):first-child { border-top: none; margin-top: 0.2rem; }
