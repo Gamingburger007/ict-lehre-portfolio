@@ -8,11 +8,11 @@ Modell zur systematischen Problemanalyse bei Recherche-Aufgaben.
 
 ```mermaid
 flowchart TD
-    S1["1. Task Definition<br/>Was muss ich herausfinden?"] --> S2["2. Information Seeking<br/>Wo könnte ich nachschauen?"]
-    S2 --> S3["3. Location & Access<br/>Wie komme ich heran?"]
-    S3 --> S4["4. Use of Information<br/>Was ist relevant?"]
-    S4 --> S5["5. Synthesis<br/>Was ist meine Antwort?"]
-    S5 --> S6["6. Evaluation<br/>Wie gut ist es gelaufen?"]
+    S1["Schritt 1: Task Definition<br/>Was muss ich herausfinden?"] --> S2["Schritt 2: Information Seeking<br/>Wo könnte ich nachschauen?"]
+    S2 --> S3["Schritt 3: Location & Access<br/>Wie komme ich heran?"]
+    S3 --> S4["Schritt 4: Use of Information<br/>Was ist relevant?"]
+    S4 --> S5["Schritt 5: Synthesis<br/>Was ist meine Antwort?"]
+    S5 --> S6["Schritt 6: Evaluation<br/>Wie gut ist es gelaufen?"]
 ```
 
 ## Die 6 Schritte

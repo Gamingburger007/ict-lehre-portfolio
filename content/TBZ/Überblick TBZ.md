@@ -13,4 +13,5 @@ Hier steht, was ich in der **Berufsschule** lerne, geordnet nach Modulen.
 | ABU | Allgemeinbildung | [[ABU]] |
 | – | Organisatorisches | [[Administratives TBZ]] |
 
-![[osi-modell-uebersicht.jpg]]
+## Zur Schule
+Die **Technische Berufsschule Zürich (TBZ)** ist meine Berufsschule. Alle Infos zur Schule findest du auf der [Startseite der TBZ](https://tbz.ch).
