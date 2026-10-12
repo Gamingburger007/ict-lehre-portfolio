@@ -58,3 +58,28 @@ img.portrait { width: 180px; height: 180px; object-fit: cover; border-radius: 50
 .explorer .folder-outer > ul > li { margin: 0.3rem 0; }
 .explorer .explorer-ul > li:has(> .folder-container) { margin-top: 0.9rem; padding-top: 0.5rem; border-top: 1px solid var(--lightgray); }
 .explorer .explorer-ul > li:has(> .folder-container):first-child { border-top: none; margin-top: 0.2rem; }
+
+/* ===== Handy-Ansicht (nur Bildschirme bis 800px, Laptop bleibt unverändert) ===== */
+@media (max-width: 800px) {
+  html, body { overflow-x: hidden; }
+  #quartz-root, #quartz-body, .center { max-width: 100vw; min-width: 0; }
+  #quartz-body .sidebar.left { flex-wrap: wrap; row-gap: 0.6rem; box-sizing: border-box; max-width: 100vw; }
+  #quartz-body .sidebar.left > .page-title { flex: 1 1 100%; margin: 0; order: -1; }
+  #quartz-body .sidebar.left .page-title a, #quartz-body .sidebar.left h2 { font-size: 1.5rem; line-height: 1.25; }
+  #quartz-body .sidebar.left .flex-component { flex: 1 1 100%; min-width: 0; max-width: 100%; }
+  img.portrait { float: none; display: block; margin: 0 auto 1.2rem; width: 150px; height: 150px; }
+  img, svg { max-width: 100%; height: auto; }
+  .cards { grid-template-columns: 1fr; }
+  .callout { max-width: 100%; box-sizing: border-box; }
+  .mermaid { overflow-x: auto; max-width: 100%; }
+  pre, table { max-width: 100%; overflow-x: auto; display: block; }
+  .center { padding-left: 0; padding-right: 0; box-sizing: border-box; }
+  h1.article-title { font-size: 1.8rem; word-break: break-word; }
+}
+
+/* Firmenlogos in den Bereichs-Karten */
+.card .card-logo { display: flex; align-items: center; height: 38px; margin-bottom: 0.6rem; }
+.card .card-logo img { height: 100%; width: auto; max-width: 70%; object-fit: contain; object-position: left center; margin: 0; border-radius: 0; box-shadow: none; }
+.card .card-logo .logo-dark { display: none; }
+:root[saved-theme="dark"] .card .card-logo .logo-light { display: none; }
+:root[saved-theme="dark"] .card .card-logo .logo-dark { display: block; }
