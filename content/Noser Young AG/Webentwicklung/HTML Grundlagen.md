@@ -51,5 +51,6 @@ Man kann seine HTML-Dateien (z. B. aus Visual Studio Code) beim **W3C Markup Val
 > [!tip] Link: [validator.w3.org](https://validator.w3.org)
 
 ## Siehe auch
+- [[HTML Textelemente]]
 - [[CSS Grundlagen]]
 - [[Wie das Web funktioniert]]
