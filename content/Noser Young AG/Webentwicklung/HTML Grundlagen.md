@@ -52,5 +52,7 @@ Man kann seine HTML-Dateien (z. B. aus Visual Studio Code) beim **W3C Markup Val
 
 ## Siehe auch
 - [[HTML Textelemente]]
+- [[HTML Listen]]
+- [[HTML Links und Navigation]]
 - [[CSS Grundlagen]]
 - [[Wie das Web funktioniert]]
