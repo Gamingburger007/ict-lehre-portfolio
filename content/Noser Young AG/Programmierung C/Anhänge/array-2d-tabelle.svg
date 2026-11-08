@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" font-family="Segoe UI, Arial, sans-serif">
+<rect width="860" height="330" rx="14" fill="#ffffff"/>
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs>
+<text x="450" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">int arr2[2][3] = {{1,2,3},{4,5,6}};</text>
+<text x="260" y="62" text-anchor="middle" font-size="13" fill="#2f9e44">[2] = 2 Zeilen</text>
+<text x="410" y="62" text-anchor="middle" font-size="13" fill="#1971c2">[3] = 3 Spalten</text>
+<text x="260.0" y="96" text-anchor="middle" font-size="14" fill="#1971c2">Spalte 0</text>
+<text x="360.0" y="96" text-anchor="middle" font-size="14" fill="#1971c2">Spalte 1</text>
+<text x="460.0" y="96" text-anchor="middle" font-size="14" fill="#1971c2">Spalte 2</text>
+<text x="196" y="150.0" text-anchor="end" font-size="14" fill="#2f9e44">Zeile 0</text>
+<rect x="210" y="110" width="100" height="70" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="260.0" y="147.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">1</text>
+<text x="260.0" y="172" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[0][0]</text>
+<rect x="310" y="110" width="100" height="70" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<text x="360.0" y="147.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">2</text>
+<text x="360.0" y="172" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[0][1]</text>
+<rect x="410" y="110" width="100" height="70" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="460.0" y="147.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">3</text>
+<text x="460.0" y="172" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[0][2]</text>
+<text x="196" y="220.0" text-anchor="end" font-size="14" fill="#2f9e44">Zeile 1</text>
+<rect x="210" y="180" width="100" height="70" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="260.0" y="217.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">4</text>
+<text x="260.0" y="242" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[1][0]</text>
+<rect x="310" y="180" width="100" height="70" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<text x="360.0" y="217.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222"><tspan text-decoration="line-through" fill="#999">5</tspan> 9</text>
+<text x="360.0" y="242" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[1][1]</text>
+<rect x="410" y="180" width="100" height="70" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="460.0" y="217.0" text-anchor="middle" font-size="22" font-weight="bold" fill="#222">6</text>
+<text x="460.0" y="242" text-anchor="middle" font-size="12" fill="#666" font-family="Consolas, monospace">[1][2]</text>
+<rect x="550" y="122" width="18" height="18" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<text x="578" y="136" font-size="13" fill="#e8590c" font-family="Consolas, monospace">printf("%d", arr2[0][1]);</text>
+<text x="578" y="156" font-size="13" fill="#222">→ gibt 2 aus</text>
+<rect x="550" y="192" width="18" height="18" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<text x="578" y="206" font-size="13" fill="#2f9e44" font-family="Consolas, monospace">arr2[1][1] = 9;</text>
+<text x="578" y="226" font-size="13" fill="#222">→ die 5 wird zur 9</text>
+<text x="450" y="285" text-anchor="middle" font-size="14" fill="#222">Merksatz: zuerst die <tspan fill="#2f9e44" font-weight="bold">Zeile</tspan>, dann die <tspan fill="#1971c2" font-weight="bold">Spalte</tspan> → arr2[Zeile][Spalte]</text>
+<text x="450" y="308" text-anchor="middle" font-size="13" fill="#555">Wie eine Tabelle in Excel: erst nach unten zur Zeile, dann nach rechts zur Spalte</text></svg>

@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "de-DE",
     baseUrl: "gamingburger007.github.io/ict-lehre-portfolio",
-    ignorePatterns: ["private", "templates", ".obsidian", "Random Notizen"],
+    ignorePatterns: ["private", "templates", "Vorlagen", ".obsidian", "Random Notizen"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",

@@ -39,7 +39,7 @@ graph LR
 - **Virtualisierter NIC**, **virtualisiertes NAT**
 - NAT erstellt eine **eigene IP-Adresse** für die VM
 - Die IP im (externen) Netzwerk ist die vom Host
-- **NAT** = Network Address Translator
+- **NAT** = Network Address Translation
 
 ## Windows-Editionen (Lizenzvarianten)
 - Windows Pro

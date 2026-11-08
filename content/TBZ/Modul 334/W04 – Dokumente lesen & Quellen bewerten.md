@@ -1,5 +1,5 @@
 ---
-tags: [m334, week04, quellenkritik]
+tags: [m334, week04, quellenkritik, craap]
 ---
 
 # Week 04 – Technische Dokumente lesen & Quellen bewerten
@@ -51,6 +51,19 @@ Eine Seite hat nur dann Forschungswert, wenn alle 4 Kriterien erfüllt sind – 
 - Authority: Qualifikationen genannt; bevorzugte Domain (.edu, .gov, .org, .net)
 - Objectivity: genaue Information mit wenig Werbung, objektiv dargestellt
 - Currency: aktuell, regelmässig aktualisiert, Links funktionieren
+
+## The CRAAP Test
+We made the **CRAAP Test**. It has five simple steps to check a source:
+
+| Letter | Criterion | Question |
+|---|---|---|
+| **C** | Currency | How up to date is the information? When was it published or updated? |
+| **R** | Relevance | Does the information fit my topic and my question? |
+| **A** | Authority | Who wrote the article, and for which department or organisation? |
+| **A** | Accuracy | Is the information legitimate and correct? Are there sources or evidence? |
+| **P** | Purpose | Why was it written, and what is the goal of the publisher? |
+
+After looking through these 5 simple steps, you should know if a source is valid or not.
 
 ## Red-Flag-Checkliste (gemeinsam im Unterricht erarbeitet)
 Jeder einzelne dieser Punkte ist Grund genug, eine Quelle vor Verwendung zu verifizieren:

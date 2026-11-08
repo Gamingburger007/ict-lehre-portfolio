@@ -11,8 +11,15 @@ flowchart LR
   L --> T["TBZ"]:::tbz
   N --> W["Webentwicklung"]:::noser2
   W --> H["HTML Grundlagen"]:::noser2
+  N --> PC["Programmierung C"]:::noser2
+  PC --> TG["Tabellengenerator"]:::noser2
+  PC --> SP["Schiebepuzzle"]:::noser2
+  N --> G["Git"]:::noser2
+  N --> NA["Administratives"]:::noser2
   T --> A["Administratives"]:::tbz2
   T --> M117["Netzwerk (M117)"]:::tbz2
+  M117 --> BM["Berechtigungs-Matrix"]:::tbz2
+  M117 --> ITD["IT-Dokumentation"]:::tbz2
   T --> M187["Betriebssysteme (M187)"]:::tbz2
   T --> M334["Information Research (M334)"]:::tbz2
   T --> M214["Softskills (M214)"]:::tbz2

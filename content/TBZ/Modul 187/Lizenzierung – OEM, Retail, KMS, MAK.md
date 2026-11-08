@@ -27,3 +27,4 @@ Erlaubt Updates für den Computer, kommt normalerweise mit einer anderen Lizenz 
 - [[Betriebssysteme Übersicht]]
 - [[Virtualisierung & VM-Netzwerke]]
 - [[BIOS & UEFI]]
+- [[Erweiterte Installationsoptionen – Imaging & Sysprep]]

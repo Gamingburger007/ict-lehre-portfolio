@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="230" viewBox="0 0 760 230" font-family="Segoe UI, Arial, sans-serif">
+<rect width="760" height="230" rx="14" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#444"/></marker></defs>
+<text x="380" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">int number[10] = {1,2,3,4,5,6,7,8,9,10};</text>
+<text x="22" y="101" font-size="14" fill="#555">Wert</text>
+<text x="22" y="146" font-size="14" fill="#555">Index</text>
+<rect x="70" y="70" width="60" height="50" rx="6" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<text x="100" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">1</text>
+<text x="100" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[0]</text>
+<rect x="136" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="166" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">2</text>
+<text x="166" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[1]</text>
+<rect x="202" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="232" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">3</text>
+<text x="232" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[2]</text>
+<rect x="268" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="298" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">4</text>
+<text x="298" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[3]</text>
+<rect x="334" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="364" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">5</text>
+<text x="364" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[4]</text>
+<rect x="400" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="430" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">6</text>
+<text x="430" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[5]</text>
+<rect x="466" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="496" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">7</text>
+<text x="496" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[6]</text>
+<rect x="532" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="562" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">8</text>
+<text x="562" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[7]</text>
+<rect x="598" y="70" width="60" height="50" rx="6" fill="#e7f0ff" stroke="#4c6ef5" stroke-width="2"/>
+<text x="628" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">9</text>
+<text x="628" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[8]</text>
+<rect x="664" y="70" width="60" height="50" rx="6" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<text x="694" y="102" text-anchor="middle" font-size="20" font-weight="bold" fill="#222">10</text>
+<text x="694" y="146" text-anchor="middle" font-size="15" fill="#e8590c" font-family="Consolas, monospace">[9]</text>
+<text x="100" y="185" text-anchor="middle" font-size="14" fill="#222">number[0] → 1</text>
+<text x="664" y="185" text-anchor="middle" font-size="14" fill="#222">number[9] → 10</text>
+<text x="380" y="212" text-anchor="middle" font-size="13" fill="#555">Der Index beginnt bei 0 → der letzte Index ist immer Grösse − 1</text></svg>

@@ -18,7 +18,7 @@ Willkommen in meinem Lernportfolio. Hier dokumentiere ich, was ich in meiner Leh
 <a class="card noser" href="Noser-Young-AG/Überblick-Noser-Young-AG">
 <span class="card-logo" style="display:flex;align-items:center;height:40px;margin-bottom:0.7rem;"><img src="assets/logo-noseryoung.png" alt="Noser Young" style="height:40px;width:auto;max-width:75%;margin:0;border-radius:0;box-shadow:none;object-fit:contain;" /></span>
 <strong>Noser Young AG</strong>
-<span>Lehrbetrieb: Webentwicklung, HTML, CSS und wie das Web funktioniert.</span>
+<span>Lehrbetrieb: Webentwicklung mit HTML und CSS, Programmieren in C und Git.</span>
 </a>
 <a class="card tbz" href="TBZ/Überblick-TBZ">
 <span class="card-logo" style="display:flex;align-items:center;height:40px;margin-bottom:0.7rem;"><img src="assets/logo-tbz.svg" alt="TBZ" style="height:40px;width:auto;max-width:75%;margin:0;border-radius:0;box-shadow:none;object-fit:contain;" /></span>

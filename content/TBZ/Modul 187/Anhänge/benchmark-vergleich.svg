@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="380" rx="14" fill="#ffffff"/>
+<defs><marker id="a" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="context-stroke"/></marker></defs>
+<text x="410.0" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">Benchmark: eigenes Gerät vs. Referenz (Beispielwerte)</text>
+<text x="40" y="78" font-size="15" font-weight="bold" fill="#1971c2">Single-Core</text>
+<text x="190" y="108" text-anchor="end" font-size="14" fill="#333">Referenz</text>
+<rect x="200" y="90" width="330" height="26" rx="4" fill="#adb5bd"/>
+<text x="538" y="108" font-size="14" font-weight="bold" fill="#222">120 Punkte</text>
+<text x="190" y="142" text-anchor="end" font-size="14" fill="#333">Mein PC</text>
+<rect x="200" y="124" width="324" height="26" rx="4" fill="#40c057"/>
+<text x="532" y="142" font-size="14" font-weight="bold" fill="#222">118 Punkte</text>
+<text x="780" y="142" text-anchor="end" font-size="14" font-weight="bold" fill="#2f9e44">≈ gleich → ok ✔</text>
+<text x="40" y="196" font-size="15" font-weight="bold" fill="#1971c2">Multi-Core</text>
+<text x="190" y="226" text-anchor="end" font-size="14" fill="#333">Referenz</text>
+<rect x="200" y="208" width="330" height="26" rx="4" fill="#adb5bd"/>
+<text x="538" y="226" font-size="14" font-weight="bold" fill="#222">1000 Punkte</text>
+<text x="190" y="260" text-anchor="end" font-size="14" fill="#333">Mein PC</text>
+<rect x="200" y="242" width="251" height="26" rx="4" fill="#fa5252"/>
+<text x="459" y="260" font-size="14" font-weight="bold" fill="#222">760 Punkte</text>
+<text x="780" y="260" text-anchor="end" font-size="14" font-weight="bold" fill="#e03131">−24 % → auffällig ⚠</text>
+<rect x="40" y="290" width="740" height="70" rx="8" fill="#fff4e6" stroke="#f08c00"/>
+<text x="56" y="315" font-size="14" font-weight="bold" fill="#222">Mögliche Gründe für die Abweichung:</text>
+<text x="56" y="342" font-size="14" fill="#333">Thermal Throttling · Treiberprobleme · Hintergrundlast · Fehlkonfiguration</text></svg>
