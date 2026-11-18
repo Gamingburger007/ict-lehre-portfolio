@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="400" viewBox="0 0 820 400" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="400" rx="14" fill="#ffffff"/>
+<text x="410" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">WLAN: 2,4 GHz vs. 5 GHz</text>
+
+<!-- Reichweite -->
+<circle cx="230" cy="215" r="150" fill="#e7f5ff" stroke="#1971c2" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="230" cy="215" r="90" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="212" y="200" width="36" height="22" rx="4" fill="#495057"/>
+<line x1="220" y1="200" x2="214" y2="184" stroke="#495057" stroke-width="3"/>
+<line x1="240" y1="200" x2="246" y2="184" stroke="#495057" stroke-width="3"/>
+<text x="230" y="240" text-anchor="middle" font-size="12" font-weight="bold" fill="#222">Access Point</text>
+<text x="230" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f9e44">5 GHz</text>
+<text x="230" y="84" text-anchor="middle" font-size="13" font-weight="bold" fill="#1971c2">2,4 GHz</text>
+<!-- Wand -->
+<rect x="318" y="150" width="14" height="130" fill="#868e96"/>
+<text x="325" y="298" text-anchor="middle" font-size="12" fill="#495057">Wand</text>
+
+<!-- Tabelle -->
+<g font-size="14">
+<rect x="430" y="70" width="370" height="300" rx="10" fill="#f8f9fa" stroke="#dee2e6"/>
+<text x="560" y="98" text-anchor="middle" font-weight="bold" fill="#1971c2">2,4 GHz</text>
+<text x="710" y="98" text-anchor="middle" font-weight="bold" fill="#2f9e44">5 GHz</text>
+<line x1="440" y1="108" x2="790" y2="108" stroke="#ced4da"/>
+<text x="445" y="135" font-size="12" fill="#666">Reichweite</text>
+<text x="560" y="135" text-anchor="middle" fill="#222">grösser ✔</text>
+<text x="710" y="135" text-anchor="middle" fill="#222">kleiner</text>
+<text x="445" y="170" font-size="12" fill="#666">durch Wände</text>
+<text x="560" y="170" text-anchor="middle" fill="#222">besser ✔</text>
+<text x="710" y="170" text-anchor="middle" fill="#222">schlechter</text>
+<text x="445" y="205" font-size="12" fill="#666">Geschwindigkeit</text>
+<text x="560" y="205" text-anchor="middle" fill="#222">langsamer</text>
+<text x="710" y="205" text-anchor="middle" fill="#222">schneller ✔</text>
+<text x="445" y="240" font-size="12" fill="#666">Störungen</text>
+<text x="560" y="240" text-anchor="middle" fill="#222">viele (Nachbarn,</text>
+<text x="560" y="256" text-anchor="middle" fill="#222">Bluetooth, Mikrowelle)</text>
+<text x="710" y="240" text-anchor="middle" fill="#222">weniger ✔</text>
+<text x="445" y="290" font-size="12" fill="#666">Kanäle</text>
+<text x="560" y="290" text-anchor="middle" fill="#222">3 ohne Überlappung</text>
+<text x="560" y="306" text-anchor="middle" fill="#222">(1, 6, 11)</text>
+<text x="710" y="290" text-anchor="middle" fill="#222">viel mehr ✔</text>
+<text x="445" y="345" font-size="12" fill="#666">gut für</text>
+<text x="560" y="345" text-anchor="middle" fill="#222">weit weg, IoT</text>
+<text x="710" y="345" text-anchor="middle" fill="#222">nah, Streaming</text>
+</g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="470" viewBox="0 0 820 470" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="470" rx="14" fill="#ffffff"/>
+<defs><marker id="a1971c2" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1971c2"/></marker><marker id="a2f9e44" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2f9e44"/></marker><marker id="a495057" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#495057"/></marker><marker id="a333" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#333"/></marker></defs>
+<text x="410" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">ping vs. tracert</text>
+
+<!-- ping -->
+<text x="40" y="70" font-size="15" font-weight="bold" fill="#1971c2">ping www.tbz.ch</text>
+<text x="200" y="70" font-size="13" fill="#555">→ fragt nur: «Bist du erreichbar, und wie lange dauert es?»</text>
+<rect x="40" y="85" width="90" height="40" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="85" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">Mein PC</text>
+<rect x="680" y="85" width="100" height="40" rx="6" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<text x="730" y="110" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">www.tbz.ch</text>
+<line x1="135" y1="98" x2="672" y2="98" stroke="#1971c2" stroke-width="3" marker-end="url(#a1971c2)"/>
+<line x1="672" y1="114" x2="138" y2="114" stroke="#2f9e44" stroke-width="3" marker-end="url(#a2f9e44)"/>
+<text x="405" y="92" text-anchor="middle" font-size="12" fill="#1971c2">Echo-Anfrage</text>
+<text x="405" y="132" text-anchor="middle" font-size="12" fill="#2f9e44">Antwort nach 12 ms ✔</text>
+
+<line x1="30" y1="150" x2="790" y2="150" stroke="#dee2e6" stroke-width="2"/>
+
+<!-- tracert -->
+<text x="40" y="180" font-size="15" font-weight="bold" fill="#e8590c">tracert www.tbz.ch</text>
+<text x="215" y="180" font-size="13" fill="#555">→ zeigt jeden Router (Hop) auf dem Weg dorthin</text>
+
+<g font-size="12">
+<rect x="20" y="200" width="100" height="44" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="70" y="226" text-anchor="middle" font-weight="bold" fill="#222">Mein PC</text>
+<rect x="160" y="200" width="120" height="44" rx="22" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+<text x="220" y="218" text-anchor="middle" font-weight="bold" fill="#e8590c">Hop 1</text>
+<text x="220" y="234" text-anchor="middle" fill="#333">Router zuhause</text>
+<rect x="320" y="200" width="120" height="44" rx="22" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+<text x="380" y="218" text-anchor="middle" font-weight="bold" fill="#e8590c">Hop 2</text>
+<text x="380" y="234" text-anchor="middle" fill="#333">Provider (ISP)</text>
+<rect x="480" y="200" width="120" height="44" rx="22" fill="#fff4e6" stroke="#e8590c" stroke-width="2"/>
+<text x="540" y="218" text-anchor="middle" font-weight="bold" fill="#e8590c">Hop 3 …</text>
+<text x="540" y="234" text-anchor="middle" fill="#333">Internet-Router</text>
+<rect x="640" y="200" width="150" height="44" rx="6" fill="#d3f9d8" stroke="#2f9e44" stroke-width="2"/>
+<text x="715" y="218" text-anchor="middle" font-weight="bold" fill="#2f9e44">Ziel</text>
+<text x="715" y="234" text-anchor="middle" fill="#333">www.tbz.ch</text>
+</g>
+<line x1="122" y1="222" x2="153" y2="222" stroke="#495057" stroke-width="3" marker-end="url(#a495057)"/>
+<line x1="282" y1="222" x2="313" y2="222" stroke="#495057" stroke-width="3" marker-end="url(#a495057)"/>
+<line x1="442" y1="222" x2="473" y2="222" stroke="#495057" stroke-width="3" marker-end="url(#a495057)"/>
+<line x1="602" y1="222" x2="633" y2="222" stroke="#495057" stroke-width="3" marker-end="url(#a495057)"/>
+
+<!-- Beispielausgabe -->
+<rect x="40" y="265" width="740" height="185" rx="8" fill="#212529"/>
+<g font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#e9ecef">
+<text x="58" y="290">C:\&gt; tracert www.tbz.ch</text>
+<text x="58" y="312" fill="#adb5bd">Routenverfolgung zu www.tbz.ch [149.126.4.25] über maximal 30 Hops:</text>
+<text y="338"><tspan x="70" text-anchor="start">1</tspan><tspan x="150" text-anchor="end">1 ms</tspan><tspan x="210" text-anchor="end">1 ms</tspan><tspan x="270" text-anchor="end">1 ms</tspan><tspan x="300" text-anchor="start">192.168.1.1</tspan></text>
+<text y="360"><tspan x="70" text-anchor="start">2</tspan><tspan x="150" text-anchor="end">8 ms</tspan><tspan x="210" text-anchor="end">7 ms</tspan><tspan x="270" text-anchor="end">9 ms</tspan><tspan x="300" text-anchor="start">gw-isp.example.net [62.2.17.1]</tspan></text>
+<text y="382"><tspan x="70" text-anchor="start">3</tspan><tspan x="150" text-anchor="end">10 ms</tspan><tspan x="210" text-anchor="end">11 ms</tspan><tspan x="270" text-anchor="end">10 ms</tspan><tspan x="300" text-anchor="start">core1.zrh.example.net [195.186.0.5]</tspan></text>
+<text y="404"><tspan x="70" text-anchor="start">4</tspan><tspan x="150" text-anchor="end">*</tspan><tspan x="210" text-anchor="end">*</tspan><tspan x="270" text-anchor="end">*</tspan><tspan x="300" text-anchor="start">Zeitüberschreitung der Anforderung.</tspan></text>
+<text y="426"><tspan x="70" text-anchor="start">5</tspan><tspan x="150" text-anchor="end">12 ms</tspan><tspan x="210" text-anchor="end">12 ms</tspan><tspan x="270" text-anchor="end">13 ms</tspan><tspan x="300" text-anchor="start">www.tbz.ch [149.126.4.25]</tspan></text>
+</g>
+<text x="770" y="338" text-anchor="end" font-size="12" fill="#ffd43b">← dein Router (Gateway)</text>
+<text x="770" y="404" text-anchor="end" font-size="12" fill="#ffd43b">← Router antwortet nicht (oft normal)</text>
+<text x="770" y="426" text-anchor="end" font-size="12" fill="#69db7c">← Ziel erreicht ✔</text>
+</svg>

@@ -9,4 +9,5 @@ Programmieren in C aus dem Lehrbetrieb.
 - [[Auftrag – Schiebepuzzle (Sliding Puzzle)]] – ein Schiebepuzzle mit einem 2D-Array planen
 - [[Binäre Suche]] – eine Zahl schnell in einem sortierten Array finden
 - [[Modulares Programmieren]] – Programme in Funktionen aufteilen
+- [[Datentypen & Structs in C]] – Datentypen, char-Arrays mit `\0` und eigene Datentypen mit Structs
 - [[File Handling in C]] – Dateien erstellen, lesen, ändern und löschen

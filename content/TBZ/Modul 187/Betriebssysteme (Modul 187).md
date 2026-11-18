@@ -13,3 +13,5 @@ Betriebssysteme, Start, Lizenzen und virtuelle Maschinen.
 - [[Hardware-Komponenten & Funktionstests]] – Bauteile eines PCs und wie man sie testet
 - [[Benchmarks & Leistungstests]] – Leistung messen und vergleichen
 - [[Hinweise Dokumentgestaltung]] – wie eine Dokumentation sauber aussieht
+- [[Arbeitsplatzaufbau & IPv4-Netzwerkkonfiguration]] – Protokolle, zwei PCs verbinden, Kabel, WLAN, TCP und tracert
+- [[Firewall-Integration & Arbeitsplatzanalyse]] – OPNsense, Firewall-Zonen, Regeln und Ports

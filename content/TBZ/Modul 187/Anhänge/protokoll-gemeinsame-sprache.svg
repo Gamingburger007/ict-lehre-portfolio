@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="420" rx="14" fill="#ffffff"/>
+<defs><marker id="a1971c2" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1971c2"/></marker><marker id="a2f9e44" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2f9e44"/></marker><marker id="a495057" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#495057"/></marker><marker id="a333" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#333"/></marker></defs>
+<text x="410" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Ein Protokoll = gemeinsame Regeln für die Kommunikation</text>
+
+<!-- Menschen-Beispiel -->
+<text x="40" y="72" font-size="15" font-weight="bold" fill="#1971c2">Beim Menschen</text>
+<circle cx="90" cy="112" r="16" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<rect x="72" y="130" width="36" height="40" rx="8" fill="#ffa94d"/>
+<circle cx="330" cy="112" r="16" fill="#ffd8a8" stroke="#e8590c" stroke-width="2"/>
+<rect x="312" y="130" width="36" height="40" rx="8" fill="#ffa94d"/>
+<rect x="125" y="88" width="170" height="34" rx="10" fill="#e7f5ff" stroke="#1971c2"/>
+<text x="210" y="110" text-anchor="middle" font-size="14" fill="#222">«Grüezi! Wie gaht's?»</text>
+<line x1="125" y1="150" x2="290" y2="150" stroke="#2f9e44" stroke-width="3" marker-end="url(#a2f9e44)"/>
+<text x="210" y="172" text-anchor="middle" font-size="13" fill="#2f9e44">gleiche Sprache → verstanden ✔</text>
+<text x="40" y="205" font-size="13" fill="#444">Regeln: Sprache, Begrüssung, wer redet wann,</text>
+<text x="40" y="223" font-size="13" fill="#444">nachfragen, wenn man etwas nicht verstanden hat</text>
+
+<!-- PC-Beispiel -->
+<text x="440" y="72" font-size="15" font-weight="bold" fill="#1971c2">Beim Computer</text>
+<rect x="455" y="92" width="70" height="48" rx="5" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<rect x="480" y="140" width="20" height="10" fill="#495057"/><rect x="465" y="150" width="50" height="6" rx="2" fill="#495057"/>
+<text x="490" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC A</text>
+<rect x="695" y="92" width="70" height="48" rx="5" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<rect x="720" y="140" width="20" height="10" fill="#495057"/><rect x="705" y="150" width="50" height="6" rx="2" fill="#495057"/>
+<text x="730" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC B</text>
+<line x1="530" y1="110" x2="688" y2="110" stroke="#1971c2" stroke-width="3" marker-end="url(#a1971c2)"/>
+<text x="610" y="100" text-anchor="middle" font-size="12" fill="#1971c2">Datenpaket</text>
+<line x1="688" y1="134" x2="530" y2="134" stroke="#2f9e44" stroke-width="3" marker-end="url(#a2f9e44)"/>
+<text x="610" y="152" text-anchor="middle" font-size="12" fill="#2f9e44">Bestätigung (ACK)</text>
+<text x="440" y="190" font-size="13" fill="#444">Beide sprechen dieselben Protokolle,</text>
+<text x="440" y="208" font-size="13" fill="#444">z. B. Ethernet + IP + TCP + HTTP</text>
+
+<!-- Was regelt ein Protokoll -->
+<line x1="30" y1="245" x2="790" y2="245" stroke="#dee2e6" stroke-width="2"/>
+<text x="410" y="272" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Was legt ein Protokoll fest?</text>
+<g font-size="14">
+<rect x="30" y="290" width="180" height="110" rx="10" fill="#e7f5ff" stroke="#1971c2"/>
+<text x="120" y="316" text-anchor="middle" font-weight="bold" fill="#1971c2">1 · Adressen</text>
+<text x="120" y="342" text-anchor="middle" fill="#333">Wer sendet,</text>
+<text x="120" y="362" text-anchor="middle" fill="#333">wer empfängt?</text>
+<text x="120" y="386" text-anchor="middle" font-size="12" fill="#666">IP-, MAC-Adresse</text>
+<rect x="223" y="290" width="180" height="110" rx="10" fill="#ebfbee" stroke="#2f9e44"/>
+<text x="313" y="316" text-anchor="middle" font-weight="bold" fill="#2f9e44">2 · Format</text>
+<text x="313" y="342" text-anchor="middle" fill="#333">Wie sieht ein</text>
+<text x="313" y="362" text-anchor="middle" fill="#333">Paket aus?</text>
+<text x="313" y="386" text-anchor="middle" font-size="12" fill="#666">Header + Daten</text>
+<rect x="416" y="290" width="180" height="110" rx="10" fill="#fff4e6" stroke="#e8590c"/>
+<text x="506" y="316" text-anchor="middle" font-weight="bold" fill="#e8590c">3 · Ablauf</text>
+<text x="506" y="342" text-anchor="middle" fill="#333">Wer sendet wann?</text>
+<text x="506" y="362" text-anchor="middle" fill="#333">Verbindungsaufbau</text>
+<text x="506" y="386" text-anchor="middle" font-size="12" fill="#666">TCP-Handshake</text>
+<rect x="609" y="290" width="180" height="110" rx="10" fill="#fff5f5" stroke="#e03131"/>
+<text x="699" y="316" text-anchor="middle" font-weight="bold" fill="#e03131">4 · Fehler</text>
+<text x="699" y="342" text-anchor="middle" fill="#333">Was, wenn etwas</text>
+<text x="699" y="362" text-anchor="middle" fill="#333">verloren geht?</text>
+<text x="699" y="386" text-anchor="middle" font-size="12" fill="#666">nochmals senden</text>
+</g>
+</svg>

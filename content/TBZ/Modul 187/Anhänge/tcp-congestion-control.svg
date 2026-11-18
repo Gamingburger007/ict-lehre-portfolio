@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="420" rx="14" fill="#ffffff"/>
+<defs><marker id="a1971c2" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1971c2"/></marker><marker id="a2f9e44" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#2f9e44"/></marker><marker id="a495057" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#495057"/></marker><marker id="a333" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#333"/></marker></defs>
+<text x="410" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">TCP Congestion Control (Staukontrolle)</text>
+<text x="410" y="56" text-anchor="middle" font-size="13" fill="#666">Wie viele Daten darf der Sender auf einmal losschicken, ohne das Netz zu verstopfen?</text>
+
+<!-- Achsen -->
+<line x1="90" y1="340" x2="780" y2="340" stroke="#333" stroke-width="2" marker-end="url(#a333)"/>
+<line x1="90" y1="340" x2="90" y2="80" stroke="#333" stroke-width="2" marker-end="url(#a333)"/>
+<text x="770" y="365" text-anchor="end" font-size="13" fill="#333">Zeit →</text>
+<text x="40" y="210" font-size="13" fill="#333" transform="rotate(-90 40 210)" text-anchor="middle">gesendete Datenmenge pro Runde</text>
+
+<!-- Schwelle -->
+<line x1="90" y1="190" x2="770" y2="190" stroke="#adb5bd" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="775" y="186" text-anchor="end" font-size="12" fill="#868e96">Schwelle</text>
+
+<!-- Kurve: Slow Start (exponentiell) -->
+<polyline fill="none" stroke="#1971c2" stroke-width="4" points="95,335 135,330 175,318 215,295 255,250 285,190"/>
+<!-- Congestion Avoidance (linear) -->
+<polyline fill="none" stroke="#2f9e44" stroke-width="4" points="285,190 335,172 385,154 435,136 485,118"/>
+<!-- Verlust: halbieren -->
+<polyline fill="none" stroke="#e03131" stroke-width="4" stroke-dasharray="2 0" points="485,118 487,229"/>
+<!-- wieder linear -->
+<polyline fill="none" stroke="#2f9e44" stroke-width="4" points="487,229 547,207 607,185 667,163 727,141"/>
+
+<circle cx="485" cy="118" r="8" fill="#e03131"/>
+<text x="500" y="102" font-size="13" font-weight="bold" fill="#e03131">💥 Paket verloren (Stau!)</text>
+<text x="500" y="244" font-size="12" fill="#e03131">→ Menge halbieren</text>
+
+<!-- Phasen-Beschriftung -->
+<rect x="110" y="356" width="190" height="52" rx="8" fill="#e7f5ff" stroke="#1971c2"/>
+<text x="205" y="377" text-anchor="middle" font-size="13" font-weight="bold" fill="#1971c2">1 · Slow Start</text>
+<text x="205" y="397" text-anchor="middle" font-size="12" fill="#333">langsam starten, dann verdoppeln</text>
+<rect x="315" y="356" width="210" height="52" rx="8" fill="#ebfbee" stroke="#2f9e44"/>
+<text x="420" y="377" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f9e44">2 · Congestion Avoidance</text>
+<text x="420" y="397" text-anchor="middle" font-size="12" fill="#333">vorsichtig, nur noch +1 pro Runde</text>
+<rect x="540" y="356" width="230" height="52" rx="8" fill="#fff5f5" stroke="#e03131"/>
+<text x="655" y="377" text-anchor="middle" font-size="13" font-weight="bold" fill="#e03131">3 · Stau erkannt</text>
+<text x="655" y="397" text-anchor="middle" font-size="12" fill="#333">bremsen, verlorenes Paket neu senden</text>
+</svg>

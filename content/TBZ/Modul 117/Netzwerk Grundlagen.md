@@ -84,7 +84,40 @@ Geräte, die von Benutzern verwendet werden oder Daten im Netzwerk erzeugen bzw.
 ### Perimeternetzwerk
 Befindet sich am **Übergang zwischen dem internen Netzwerk und externen Netzwerken** (z. B. dem Internet). Eine DMZ kann Teil des Perimeternetzwerks sein.
 
+## Das Einführungsbild (W01, Aufgabe 1)
+In der ersten Woche mussten alle Begriffe aus diesem Bild in eigenen Worten erklärt werden:
+
+![[einfuehrung-netzwerk-kleine-firma.jpg]]
+
+Begriffe, die oben noch fehlen:
+
+| Begriff | Erklärung |
+|---|---|
+| **Internet** | weltweiter Zusammenschluss vieler IP-Netze, siehe [[Internetzugang]] |
+| **WWW-Server** | Webserver, liefert Webseiten (HTTP/HTTPS) aus, steht in der DMZ |
+| **IP-TV-Server** | verteilt Fernsehprogramme über das IP-Netz |
+| **VoIP-Server** | Telefonanlage über IP (Voice over IP), vermittelt Anrufe der IP-Telefone |
+| **Streamer** | Streaming-Server für Audio/Video (oder Bandlaufwerk für Backups) |
+| **Standard Host** | gewöhnlicher Server/Rechner, der Dienste anbietet |
+| **Storage** | zentraler Speicher (z. B. SAN), auf den Server zugreifen |
+| **Network Management** | Station zum Überwachen und Verwalten des Netzes (Monitoring, z. B. per SNMP) |
+| **WLAN Access Point** | bringt Tablets, Phones, Laptops drahtlos ins LAN, siehe [[WLAN-Standards]] |
+| **Access Switch** | verbindet Endgeräte (PC, Drucker, AP) mit dem Netz |
+
+## Was ein Gerät braucht, um ins IP-Netz zu kommen
+Der Netzverantwortliche (oder automatisch der **DHCP-Server**) muss vier Angaben liefern:
+1. **IP-Adresse** des Geräts, z. B. `192.168.12.21`
+2. **Subnetzmaske** (dezimal `255.255.255.0` oder als Suffix `/24`)
+3. **Standardgateway** = IP des Router-Ports, an dem das LAN hängt
+4. **DNS-Server** = wandelt Namen (www.tbz.ch) in IP-Adressen um
+
+Mit DHCP stellt man am Gerät nur **«IP-Adresse automatisch beziehen»** ein. Prüfen mit `ipconfig /all`. Details: [[IP-Adressierung & Subnetting]] und [[Netzwerk konfigurieren & testen (Befehle)]].
+
 ## Siehe auch
+- [[Modul 117 – Überblick]]
+- [[Anforderungen & Netzwerkdienste]]
+- [[Logischer & physischer Netzwerkplan]]
+- [[Netzwerkgeräte & Zugriffsverfahren]]
 - [[IP-Adressierung & Subnetting]]
 - [[Netzwerktopologien]]
 - [[OSI-Modell]]

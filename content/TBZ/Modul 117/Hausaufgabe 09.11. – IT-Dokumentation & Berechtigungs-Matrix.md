@@ -49,6 +49,9 @@ abgabe: Teams (mehrere Übermittlungen zulässig)
 ## 🔢 IP-Repetition
 %% Hier selber eintragen: Aufgabe, mein Fehler, richtige Lösung, warum. %%
 
+> [!info] Musterlösung zum Vergleichen
+> Alle Aufgaben der Repetition (W11) mit Musterlösung und Erklärungen: [[IP-Berechnungen – Übungen mit Lösungen#Repetition (W11)]]
+
 | Aufgabe | Mein Fehler | Richtige Lösung | Warum |
 |---|---|---|---|
 |  |  |  |  |

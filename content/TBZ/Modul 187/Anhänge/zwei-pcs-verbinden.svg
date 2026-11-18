@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="560" viewBox="0 0 820 560" font-family="Segoe UI, Arial, sans-serif">
+<rect width="820" height="560" rx="14" fill="#ffffff"/>
+<text x="410" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Zwei PCs mit einem Netzwerkkabel verbinden</text>
+<text x="410" y="56" text-anchor="middle" font-size="13" fill="#666">gleiches Kabel (RJ45), aber unterschiedliche IP-Einstellungen</text>
+
+<!-- Zeile-Vorlage: y-Offsets 80, 200, 320, 440 -->
+<g id="z1">
+<rect x="20" y="75" width="780" height="108" rx="10" fill="#fff5f5" stroke="#e03131"/>
+<text x="36" y="99" font-size="15" font-weight="bold" fill="#e03131">① Ohne IP-Adresse (nur Kabel, IPv4 nicht konfiguriert)</text>
+<rect x="60" y="112" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="120" y="133" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC A</text>
+<text x="120" y="152" text-anchor="middle" font-size="12" fill="#e03131">keine IP</text>
+<rect x="420" y="112" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="480" y="133" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC B</text>
+<text x="480" y="152" text-anchor="middle" font-size="12" fill="#e03131">keine IP</text>
+<line x1="180" y1="137" x2="420" y2="137" stroke="#1971c2" stroke-width="4"/>
+<text x="300" y="129" text-anchor="middle" font-size="12" fill="#1971c2">Link-Light leuchtet ✔</text>
+<text x="565" y="128" font-size="13" fill="#333">ping geht <tspan font-weight="bold" fill="#e03131">nicht ✘</tspan></text>
+<text x="565" y="148" font-size="12" fill="#555">Kabel ok (Schicht 1+2), aber ohne</text>
+<text x="565" y="165" font-size="12" fill="#555">IP-Adresse kein Ziel (Schicht 3)</text>
+</g>
+
+<g>
+<rect x="20" y="195" width="780" height="108" rx="10" fill="#fff9db" stroke="#f08c00"/>
+<text x="36" y="219" font-size="15" font-weight="bold" fill="#f08c00">② Automatisch (DHCP), aber kein DHCP-Server → APIPA</text>
+<rect x="60" y="232" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="120" y="253" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC A</text>
+<text x="120" y="272" text-anchor="middle" font-size="12" fill="#333">169.254.12.7</text>
+<rect x="420" y="232" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="480" y="253" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC B</text>
+<text x="480" y="272" text-anchor="middle" font-size="12" fill="#333">169.254.200.3</text>
+<line x1="180" y1="257" x2="420" y2="257" stroke="#1971c2" stroke-width="4"/>
+<text x="300" y="249" text-anchor="middle" font-size="12" fill="#1971c2">Netz 169.254.0.0/16</text>
+<text x="565" y="248" font-size="13" fill="#333">ping geht <tspan font-weight="bold" fill="#f08c00">meist ✔</tspan></text>
+<text x="565" y="268" font-size="12" fill="#555">Windows gibt sich selbst eine Adresse,</text>
+<text x="565" y="285" font-size="12" fill="#555">aber kein Gateway → kein Internet</text>
+</g>
+
+<g>
+<rect x="20" y="315" width="780" height="108" rx="10" fill="#ebfbee" stroke="#2f9e44"/>
+<text x="36" y="339" font-size="15" font-weight="bold" fill="#2f9e44">③ Manuell, gleiches Netz (richtig!)</text>
+<rect x="60" y="352" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="120" y="373" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC A</text>
+<text x="120" y="392" text-anchor="middle" font-size="12" fill="#333">192.168.1.10/24</text>
+<rect x="420" y="352" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="480" y="373" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC B</text>
+<text x="480" y="392" text-anchor="middle" font-size="12" fill="#333">192.168.1.20/24</text>
+<line x1="180" y1="377" x2="420" y2="377" stroke="#1971c2" stroke-width="4"/>
+<text x="300" y="369" text-anchor="middle" font-size="12" fill="#1971c2">Netz 192.168.1.0/24</text>
+<text x="565" y="368" font-size="13" fill="#333">ping geht <tspan font-weight="bold" fill="#2f9e44">✔</tspan></text>
+<text x="565" y="388" font-size="12" fill="#555">gleicher Netzteil (192.168.1),</text>
+<text x="565" y="405" font-size="12" fill="#555">verschiedene Host-Teile (.10 / .20)</text>
+</g>
+
+<g>
+<rect x="20" y="435" width="780" height="108" rx="10" fill="#fff5f5" stroke="#e03131"/>
+<text x="36" y="459" font-size="15" font-weight="bold" fill="#e03131">④ Manuell, aber verschiedene Netze</text>
+<rect x="60" y="472" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="120" y="493" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC A</text>
+<text x="120" y="512" text-anchor="middle" font-size="12" fill="#333">192.168.1.10/24</text>
+<rect x="420" y="472" width="120" height="50" rx="6" fill="#dee2e6" stroke="#495057" stroke-width="2"/>
+<text x="480" y="493" text-anchor="middle" font-size="13" font-weight="bold" fill="#222">PC B</text>
+<text x="480" y="512" text-anchor="middle" font-size="12" fill="#e03131">192.168.2.20/24</text>
+<line x1="180" y1="497" x2="420" y2="497" stroke="#1971c2" stroke-width="4"/>
+<text x="300" y="489" text-anchor="middle" font-size="12" fill="#1971c2">.1 ≠ .2 → 2 verschiedene Netze</text>
+<text x="565" y="488" font-size="13" fill="#333">ping geht <tspan font-weight="bold" fill="#e03131">nicht ✘</tspan></text>
+<text x="565" y="508" font-size="12" fill="#555">dazwischen bräuchte es einen Router</text>
+<text x="565" y="525" font-size="12" fill="#555">(oder eine IP im selben Netz wählen)</text>
+</g>
+</svg>
