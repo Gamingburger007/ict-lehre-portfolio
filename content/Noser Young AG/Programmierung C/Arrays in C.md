@@ -79,3 +79,4 @@ Ausgabe:
 - [[Binäre Suche]] (sucht eine Zahl in einem sortierten Array)
 - [[Auftrag 05 – Tabellengenerator]]
 - [[Auftrag – Schiebepuzzle (Sliding Puzzle)]] (2D-Array als Spielfeld)
+- [[Pointer in C]] (Arrays und Pointer, Speicher mit malloc)

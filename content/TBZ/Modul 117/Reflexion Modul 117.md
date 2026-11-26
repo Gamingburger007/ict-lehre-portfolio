@@ -33,3 +33,31 @@ datum: 08.11.2026
 ## Bilder zum Lernprozess
 %% Zwischenstände, Fehlermeldungen, Endergebnis. Unter jedes Bild eine kurze Zeile, was man sieht. %%
 
+
+---
+
+## 26.11.2026 – LB2 SolarConcept: Phase 1 abgeschlossen, Phase 2 begonnen
+
+> [!info] Worum ging es?
+> Mit Puro plane ich die komplette IT für die SolarConcept AG (HQ in Wollishofen, Branch in der Enge). Phase 1: Fragenkatalog, Grobplanung, Internetanschluss abklären, IT-Doku und Projektablage vorbereiten. Phase 2: Rack, Grundrisspläne, logischer Netzwerkplan und Offerte. Passende Notizen: [[Internetzugang]], [[Universelle Gebäudeverkabelung (UGV)]], [[Logischer & physischer Netzwerkplan]], [[Offerte erstellen]]
+
+### Was habe ich gelernt?
+- Am Anfang die richtigen Fragen stellen ist das Wichtigste. Ohne die Antworten von Herrn Perret hätten wir falsch geplant (z. B. war die Adresse der Branch falsch: Sternenstrasse **24**, nicht 74).
+- Eine Antwort kann das ganze Konzept ändern: Weil die Branch auf Fileserver, Datenbank und PBX im HQ zugreifen muss, verbinden wir die Standorte mit einem **Site-to-Site-VPN** statt sie getrennt zu lassen.
+- Internetanbieter vergleicht man nach Technologie, Up-/Download, einmaligen und monatlichen Kosten. Gewählt haben wir Salt mit 1 Gbit/s Glasfaser.
+- Eine IT-Doku braucht von Anfang an eine feste Struktur (Titel, Änderungsverzeichnis, Inhaltsverzeichnis, Seitenzahlen), sonst wird sie später chaotisch.
+
+### Was hat gut funktioniert?
+- Die Fragen nach Priorität sortieren (A = in der 5-Minuten-Besprechung fragen, B = später klären). So hat die kurze Besprechung gereicht.
+- Die gemeinsame Projektablage in OneDrive: Puro und ich haben immer den gleichen Stand.
+
+### Wo hatte ich Schwierigkeiten?
+- An alles denken, was es für die Installation braucht: Wanddurchbrüche, Klima im Serverraum, USV, Strom fürs Rack.
+- Realistische Preise für die Offerte finden, weil es so viele Positionen sind.
+
+### Wie habe ich es gelöst?
+- Mit der Checkliste von Herrn Perret geprüft, ob alles für Phase 1 erledigt ist, bevor wir mit Phase 2 begonnen haben.
+
+### Was mache ich nächstes Mal anders?
+- Die Aufgabenteilung mit Puro früher festlegen und im Projektplan eintragen.
+- Preise in der Offerte direkt mit aktuellen Händlerpreisen vergleichen und die Offerten von Elektriker und Klima früher anfragen.
